@@ -7,7 +7,7 @@ int find_Majority(int arr[], int n)
 {
     int i, element = -1, count = 0;
 
-    // Finding majority candidate
+    // Finding majority element
     for (i = 0; i < n; i++)
     {
         if (count == 0)
@@ -25,7 +25,7 @@ int find_Majority(int arr[], int n)
     }
     int count1 = 0;
 
-    // Checking if majority candidate occurs more than n/2 times
+    // Checking if majority element occurs more than n/2 times or not...
     for (i = 0; i < n; i++)
     {
         if (arr[i] == element)
