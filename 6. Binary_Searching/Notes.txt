@@ -1,5 +1,0 @@
-Steps:
-1. Find mid index: mid = (low + high) / 2
-2. If a[mid] == key; Return mid;
-3. If key > a[mid]
-4. If key < a[mid]
